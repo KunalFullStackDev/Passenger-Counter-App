@@ -10,7 +10,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: rgb(135, 222, 200);
+}
+
+.heading{
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
